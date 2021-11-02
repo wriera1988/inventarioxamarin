@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="inventarioTMP.MainPage">
+
+    <StackLayout HorizontalOptions="Center" >
+        <Image Source="bodega.png" Aspect="AspectFit" Margin="30,30,30,30"  HeightRequest="100" />
+        <Label Text="Bienvenido" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Para acceder al sistema ingrese sus credenciales." FontSize="16" Padding="30,10,30,10"/>
+
+        <Entry Placeholder="Usuario:" x:Name="txtUsuario" />
+        <Entry Placeholder="Contraseña:" x:Name="txtContrasena"/>
+        <Button Text="Ingresar" x:Name="btnLogin" Clicked="btnLogin_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>
