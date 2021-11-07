@@ -22,5 +22,10 @@ namespace inventarioTMP
         {
 
         }
+
+        private void Bodegas_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new TabbedPage1(), false);
+        }
     }
 }

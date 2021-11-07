@@ -15,8 +15,8 @@
 
         <Image Source="bodegas.png" Grid.Column="0" Margin="50">
             <Image.GestureRecognizers>
-                <TapGestureRecognizer
-                Tapped="TapGestureRecognizer_Tapped"
+                <TapGestureRecognizer 
+                Tapped="Bodegas_Tapped"
                 NumberOfTapsRequired="1" />
             </Image.GestureRecognizers>
         </Image>

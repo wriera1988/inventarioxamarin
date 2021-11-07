@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("inventarioTMP.View1.xaml", "View1.xaml", typeof(global::inventarioTMP.View1))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("inventarioTMP.View1.xaml", "View1.xaml", typeof(global::inventarioTMP.Bodegas))]
 
 namespace inventarioTMP {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View1.xaml")]
-    public partial class View1 : global::Xamarin.Forms.ContentView {
+    public partial class Bodegas : global::Xamarin.Forms.ContentView {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(View1));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Bodegas));
         }
     }
 }
