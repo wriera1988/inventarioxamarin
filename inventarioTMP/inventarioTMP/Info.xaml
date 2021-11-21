@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="inventarioTMP.Info">
+    <Grid Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="250" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Image Source="logo.png" Grid.Column="0" Margin="0"/>
+
+        <Label Grid.Row="1"  Margin="0"
+               Text="Xamarin Forms" TextColor="Blue" FontSize="35"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+        <Label Grid.Row="2"  Margin="0" FontSize="25"
+               Text="Alejandro Riera - Jairo Lomas"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+        <Label Grid.Row="3"  Margin="0" TextColor="ForestGreen"
+               Text="Proyecto Desarrollos Moviles"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+    </Grid>
+</ContentPage>

@@ -18,14 +18,34 @@ namespace inventarioTMP
             InitializeComponent();
         }
 
-        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
-        {
-
-        }
-
         private void Bodegas_Tapped(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new TabbedPage1(), false);
+            Navigation.PushAsync(new Bodegas(), false);
+        }
+
+        private void Productos_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Productos(), false);
+        }
+
+        private void Ingresos_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Ingresos(), false);
+        }
+
+        private void Egresos_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Egresos(), false);
+        }
+
+        private void Info_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Info(), false);
+        }
+
+        private void Reporte_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Reporte(), false);
         }
     }
 }

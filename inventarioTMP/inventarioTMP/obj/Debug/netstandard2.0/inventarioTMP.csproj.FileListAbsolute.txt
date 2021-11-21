@@ -31,4 +31,8 @@ C:\Desarrollo\inventarioxamarin\inventarioTMP\inventarioTMP\obj\Debug\netstandar
 C:\Desarrollo\inventarioxamarin\inventarioTMP\inventarioTMP\obj\Debug\netstandard2.0\ref\inventarioTMP.dll
 C:\Desarrollo\inventarioxamarin\inventarioTMP\inventarioTMP\obj\Debug\netstandard2.0\inventarioTMP.pdb
 C:\Desarrollo\inventarioxamarin\inventarioTMP\inventarioTMP\obj\Debug\netstandard2.0\Bodegas.xaml.g.cs
-C:\Desarrollo\inventarioxamarin\inventarioTMP\inventarioTMP\obj\Debug\netstandard2.0\TabbedPage1.xaml.g.cs
+C:\Desarrollo\inventarioxamarin\inventarioTMP\inventarioTMP\obj\Debug\netstandard2.0\Productos.xaml.g.cs
+C:\Desarrollo\inventarioxamarin\inventarioTMP\inventarioTMP\obj\Debug\netstandard2.0\Ingresos.xaml.g.cs
+C:\Desarrollo\inventarioxamarin\inventarioTMP\inventarioTMP\obj\Debug\netstandard2.0\Egresos.xaml.g.cs
+C:\Desarrollo\inventarioxamarin\inventarioTMP\inventarioTMP\obj\Debug\netstandard2.0\Info.xaml.g.cs
+C:\Desarrollo\inventarioxamarin\inventarioTMP\inventarioTMP\obj\Debug\netstandard2.0\Reporte.xaml.g.cs

@@ -28,7 +28,7 @@
         <Image Source="producto.png" Grid.Column="1" Margin="50">
             <Image.GestureRecognizers>
                 <TapGestureRecognizer
-                Tapped="TapGestureRecognizer_Tapped"
+                Tapped="Productos_Tapped"
                 NumberOfTapsRequired="1" />
             </Image.GestureRecognizers>
         </Image>
@@ -41,7 +41,7 @@
         <Image Source="ingresos.png" Grid.Row="1" Grid.Column="0" Margin="50">
             <Image.GestureRecognizers>
                 <TapGestureRecognizer
-                Tapped="TapGestureRecognizer_Tapped"
+                Tapped="Ingresos_Tapped"
                 NumberOfTapsRequired="1" />
             </Image.GestureRecognizers>
         </Image>
@@ -54,7 +54,7 @@
         <Image Source="egresos.png" Grid.Row="1" Grid.Column="1" Margin="50">
             <Image.GestureRecognizers>
                 <TapGestureRecognizer
-                Tapped="TapGestureRecognizer_Tapped"
+                Tapped="Egresos_Tapped"
                 NumberOfTapsRequired="1" />
             </Image.GestureRecognizers>
         </Image>
@@ -68,12 +68,12 @@
         <Image Source="reporte.png" Grid.Row="2" Grid.Column="0" Margin="50">
             <Image.GestureRecognizers>
                 <TapGestureRecognizer
-                Tapped="TapGestureRecognizer_Tapped"
+                Tapped="Reporte_Tapped"
                 NumberOfTapsRequired="1" />
             </Image.GestureRecognizers>
         </Image>
         <Label Grid.Column="0" Grid.Row="2" Margin="10, 100, 10, 10"
-               Text="Reporte"
+               Text="Reporte Mov."
                HorizontalOptions="Center"
                VerticalOptions="Center" />
         
@@ -82,7 +82,7 @@
         <Image Source="informacion.png" Grid.Row="2" Grid.Column="1" Margin="50">
             <Image.GestureRecognizers>
                 <TapGestureRecognizer
-                Tapped="TapGestureRecognizer_Tapped"
+                Tapped="Info_Tapped"
                 NumberOfTapsRequired="1" />
             </Image.GestureRecognizers>
         </Image>

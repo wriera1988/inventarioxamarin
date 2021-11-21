@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="inventarioTMP.Ingresos">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Listado" >
+        
+        <ListView x:Name="listaIngresos">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding textoTitulo} "
+                              Detail="{Binding detalle}"
+                              TextColor="DarkGreen"
+                              DetailColor="Blue" />
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+    </ContentPage>
+    <ContentPage Title="Registrar" >
+        <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Fill" Padding="10,30" >
+            <Picker ItemDisplayBinding="{Binding nombre}" x:Name="slcBodega" Title="Bodega a donde ingresa" />
+            <Picker ItemDisplayBinding="{Binding nombre}" x:Name="slcProducto" Title="Producto que ingresa" />
+            <Entry Placeholder="Cantidad :" x:Name="txtCantidad" Keyboard="Numeric" />
+            <Entry Placeholder="Detalle :" x:Name="txtDetalle" />
+            <Button Text="Crear" BackgroundColor="LightSeaGreen" x:Name="btnGuardar" Clicked="btnGuardar_Clicked" Margin="0,30"/>
+            <Button Text="Cancelar" x:Name="btnCancelar" Clicked="btnCancelar_Clicked"/>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>

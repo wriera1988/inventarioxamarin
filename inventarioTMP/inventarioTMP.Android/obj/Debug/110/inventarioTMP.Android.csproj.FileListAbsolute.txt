@@ -1165,3 +1165,4 @@ C:\Desarrollo\inventarioxamarin\inventarioTMP\inventarioTMP.Android\obj\Debug\11
 C:\Desarrollo\inventarioxamarin\inventarioTMP\inventarioTMP.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
 C:\Desarrollo\inventarioxamarin\inventarioTMP\inventarioTMP.Android\obj\Debug\110\android\assets\Newtonsoft.Json.dll
 C:\Desarrollo\inventarioxamarin\inventarioTMP\inventarioTMP.Android\obj\Debug\110\inventarioTMP.Android.csproj.CopyComplete
+C:\Desarrollo\inventarioxamarin\inventarioTMP\inventarioTMP.Android\obj\Debug\110\res\drawable\logo.png

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="inventarioTMP.Productos">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Listado" >
+        
+        <ListView x:Name="listaProductos">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding nombre}"
+                              Detail="{Binding descripcion}"
+                              TextColor="DarkGreen"
+                              DetailColor="Gray" />
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+    </ContentPage>
+    <ContentPage Title="Crear Nuevo" >
+        <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Fill" Padding="10,30" >
+            <Entry Placeholder="Nombre :" x:Name="txtNombre"  />
+            <Entry Placeholder="Código :" x:Name="txtCodigo" />
+            <Entry Placeholder="Descripción :" x:Name="txtDescripcion" />
+            <Button Text="Crear" BackgroundColor="LightSeaGreen" x:Name="btnGuardar" Clicked="btnGuardar_Clicked" Margin="0,30"/>
+            <Button Text="Cancelar" x:Name="btnCancelar" Clicked="btnCancelar_Clicked"/>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>
