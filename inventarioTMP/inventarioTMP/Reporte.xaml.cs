@@ -13,7 +13,7 @@ namespace inventarioTMP
     public partial class Reporte
         : ContentPage
     {
-        private const String urlListar = "http://192.168.100.61:8000/api/movimientos";
+        private const String urlListar = "http://192.168.1.10:8000/api/movimientos";
         private readonly HttpClient cliente = new HttpClient();
         private ObservableCollection<MovimientosDTO> movimientosLista;
         public Reporte()

@@ -16,8 +16,8 @@ namespace inventarioTMP
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Bodegas : TabbedPage
     {
-        private const String urlListar = "http://192.168.100.61:8000/api/bodegas";
-        private const String urlCrear = "http://192.168.100.61:8000/api/bodega";
+        private const String urlListar = "http://192.168.1.10:8000/api/bodegas";
+        private const String urlCrear = "http://192.168.1.10:8000/api/bodega";
         private readonly HttpClient cliente = new HttpClient();
         private ObservableCollection<BodegasDTO> bodegalLista;
         public Bodegas()

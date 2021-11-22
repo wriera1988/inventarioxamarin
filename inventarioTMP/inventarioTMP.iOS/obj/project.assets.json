@@ -224,7 +224,7 @@
           "Microcharts": "0.9.5.9",
           "Newtonsoft.Json": "13.0.1",
           "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Forms": "5.0.0.2244"
         },
         "compile": {
           "bin/placeholder/inventarioTMP.dll": {}
@@ -439,7 +439,7 @@
           "Microcharts": "0.9.5.9",
           "Newtonsoft.Json": "13.0.1",
           "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Forms": "5.0.0.2244"
         },
         "compile": {
           "bin/placeholder/inventarioTMP.dll": {}
@@ -657,7 +657,7 @@
           "Microcharts": "0.9.5.9",
           "Newtonsoft.Json": "13.0.1",
           "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Forms": "5.0.0.2244"
         },
         "compile": {
           "bin/placeholder/inventarioTMP.dll": {}
@@ -875,7 +875,7 @@
           "Microcharts": "0.9.5.9",
           "Newtonsoft.Json": "13.0.1",
           "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Forms": "5.0.0.2244"
         },
         "compile": {
           "bin/placeholder/inventarioTMP.dll": {}
@@ -1378,7 +1378,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\jairo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
@@ -1387,15 +1388,17 @@
       "projectUniqueName": "C:\\Desarrollo\\inventarioxamarin\\inventarioTMP\\inventarioTMP.iOS\\inventarioTMP.iOS.csproj",
       "projectName": "inventarioTMP.iOS",
       "projectPath": "C:\\Desarrollo\\inventarioxamarin\\inventarioTMP\\inventarioTMP.iOS\\inventarioTMP.iOS.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\jairo\\.nuget\\packages\\",
       "outputPath": "C:\\Desarrollo\\inventarioxamarin\\inventarioTMP\\inventarioTMP.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jairo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1445,5 +1448,20 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Degradación del paquete detectada: Xamarin.Forms de 5.0.0.2244 a 5.0.0.2012. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n inventarioTMP.iOS -> inventarioTMP -> Xamarin.Forms (>= 5.0.0.2244) \r\n inventarioTMP.iOS -> Xamarin.Forms (>= 5.0.0.2012)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }
