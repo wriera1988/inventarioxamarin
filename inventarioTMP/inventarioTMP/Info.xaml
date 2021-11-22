@@ -16,7 +16,7 @@
         <Image Source="logo.png" Grid.Column="0" Margin="0"/>
 
         <Label Grid.Row="1"  Margin="0"
-               Text="Proyecto Mobile" TextColor="Blue" FontSize="35"
+               Text="Proyecto de Desarrollo Mobiles" TextColor="Blue" FontSize="35"
                HorizontalOptions="Center"
                VerticalOptions="Center" />
         <Label Grid.Row="2"  Margin="0" FontSize="25"
@@ -24,7 +24,11 @@
                HorizontalOptions="Center"
                VerticalOptions="Center" />
         <Label Grid.Row="3"  Margin="0" TextColor="ForestGreen"
-               Text="Proyecto Desarrollos Moviles"
+               Text="Noveno Semestre"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+        <Label Grid.Row="4"  Margin="0" TextColor="ForestGreen"
+               Text="Tutor: Mg. Renato Mauricio Toasa Guachi"
                HorizontalOptions="Center"
                VerticalOptions="Center" />
 
