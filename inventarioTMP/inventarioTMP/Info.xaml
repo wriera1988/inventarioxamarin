@@ -27,7 +27,7 @@
                Text="Noveno Semestre"
                HorizontalOptions="Center"
                VerticalOptions="Center" />
-        <Label Grid.Row="5"  Margin="0" TextColor="ForestGreen"
+        <Label Grid.Row="5"  Margin="0" TextColor="ForestGreen" FontSize="18"
                Text="Tutor: Mg. Renato Mauricio Toasa Guachi"
                HorizontalOptions="Center"
                VerticalOptions="Center" />
