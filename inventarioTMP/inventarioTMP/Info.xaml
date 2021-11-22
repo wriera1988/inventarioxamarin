@@ -16,7 +16,7 @@
         <Image Source="logo.png" Grid.Column="0" Margin="0"/>
 
         <Label Grid.Row="1"  Margin="0"
-               Text="Xamarin Forms" TextColor="Blue" FontSize="35"
+               Text="Proyecto Mobile" TextColor="Blue" FontSize="35"
                HorizontalOptions="Center"
                VerticalOptions="Center" />
         <Label Grid.Row="2"  Margin="0" FontSize="25"

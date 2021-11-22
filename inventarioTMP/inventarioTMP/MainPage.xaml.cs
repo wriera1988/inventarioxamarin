@@ -20,7 +20,7 @@ namespace inventarioTMP
             {
                 DisplayAlert("No permitido.!", "Ingrese sus credenciales", "Ok");
             }
-            else if (usuario.Equals("Admin") && contrasena.Equals("Admin"))
+            else if (usuario.Equals("uisrael") && contrasena.Equals("uisrael"))
             {
                 Navigation.PushAsync(new MenuP(), false);
             }
