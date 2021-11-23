@@ -14,6 +14,6 @@ namespace inventarioTMP
         public int cantidad { get; set; }
         public DateTime created_at { get; set; }
 
-        public String textoTitulo => $"{tipo} | {created_at} | {id_producto} | {cantidad}";
+        public String textoTitulo => $"{tipo}: \n {created_at} | {id_producto} | {cantidad}";
     }
 }

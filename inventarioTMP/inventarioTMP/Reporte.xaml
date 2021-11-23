@@ -2,16 +2,45 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="inventarioTMP.Reporte">
-    <Grid Margin="20,60,20,80">
+    <Grid Margin="10,60,20,80">
         <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <ListView x:Name="listaMovimientos" Grid.Row="0" Grid.Column="0">
+        <Label Grid.Column="0" Grid.Row="0" Margin="10, 0, 10, 10"
+               Text="TOTAL INGRESOS:"
+               TextColor="ForestGreen"
+               FontSize="20"
+               HorizontalOptions="Start"
+               VerticalOptions="Center" />
+
+        <Label Grid.Column="0" Grid.Row="0" Margin="190, 0, 10, 10"
+               x:Name="totalI"
+               TextColor="ForestGreen"
+               FontSize="20"
+               HorizontalOptions="Start"
+               VerticalOptions="Center" />
+
+        <Label Grid.Column="0" Grid.Row="1" Margin="10, 0, 10, 10"
+               Text="TOTAL EGRESOS:"
+               TextColor="Maroon"
+               FontSize="20"
+               HorizontalOptions="Start"
+               VerticalOptions="Center" />
+
+        <Label Grid.Column="0" Grid.Row="1" Margin="190, 0, 10, 10"
+               x:Name="totalE"
+               TextColor="Maroon"
+               FontSize="20"
+               HorizontalOptions="Start"
+               VerticalOptions="Center" />
+
+        <ListView x:Name="listaMovimientos" BackgroundColor="LightGoldenrodYellow" Grid.Row="2" Grid.Column="0">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <TextCell Text="{Binding textoTitulo} "
@@ -21,6 +50,10 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        
+        
+        
+        
 
     </Grid>
 </ContentPage>

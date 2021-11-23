@@ -16,6 +16,8 @@ namespace inventarioTMP
         private const String urlListar = "http://192.168.1.10:8000/api/movimientos";
         private readonly HttpClient cliente = new HttpClient();
         private ObservableCollection<MovimientosDTO> movimientosLista;
+        double totalIngresos = 0;
+        double totalEgresos = 0;
         public Reporte()
         {
             InitializeComponent();
@@ -27,6 +29,19 @@ namespace inventarioTMP
             List<MovimientosDTO> posts = JsonConvert.DeserializeObject<List<MovimientosDTO>>(content);
             movimientosLista = new ObservableCollection<MovimientosDTO>(posts);
             listaMovimientos.ItemsSource = movimientosLista;
+            foreach (var movimientos in posts)
+            {
+                if (movimientos.tipo.Equals("INGRESO"))
+                {
+                    totalIngresos += movimientos.cantidad;
+                }
+                if (movimientos.tipo.Equals("EGRESO"))
+                {
+                    totalEgresos += movimientos.cantidad;
+                }
+            }
+            totalE.Text = totalEgresos + "";
+            totalI.Text = totalIngresos + "";
             base.OnAppearing();
         }
     }
